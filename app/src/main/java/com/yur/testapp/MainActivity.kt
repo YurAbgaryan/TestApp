@@ -72,7 +72,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     fun random() {
-        print((1..90).random())
+        print((1..7).random())
     }
 
     override fun onClick(v: View?) {
