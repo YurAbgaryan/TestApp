@@ -19,12 +19,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
 
         setContentView(R.layout.activity_main)
-//        val titleTxt = findViewById<TextView>(R.id.text_view)
-//        titleTxt.text = "Text was changed from onCreate"
-//
-//        val button : Button = findViewById(R.id.show_toast_btn)
-//        val secondaryButton : Button = findViewById(R.id.secondary_btn)
-//        button.invalidate()
 
 
 //        button.setOnClickListener {
@@ -78,7 +72,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     fun random() {
-
+        print((1..90).random())
     }
 
     override fun onClick(v: View?) {
